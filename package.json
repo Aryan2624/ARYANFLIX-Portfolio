@@ -1,0 +1,28 @@
+{
+  "name": "aryanflix-projects-in-motion",
+  "version": "4.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "sync:github": "node scripts/sync-github.mjs",
+    "list:github": "node scripts/list-github.mjs",
+    "import:github": "node scripts/import-github.mjs",
+    "check": "vite build"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.1.2",
+    "@react-three/drei": "^10.0.7",
+    "three": "^0.175.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "gsap": "^3.12.7",
+    "lucide-react": "^0.468.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
